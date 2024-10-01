@@ -12,8 +12,8 @@ def insertion_sort(arr)
 
     arr[j+1] = key
   end
+  return arr
 end
 
-arr = [6,2,8,3,0,4,3,8,3,2,7]
-insertion_sort(arr)
-puts arr
+arr = [45, 56, 67, 34, 23, 45, 75, 31, 43, 78]
+puts insertion_sort(arr)

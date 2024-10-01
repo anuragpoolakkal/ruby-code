@@ -20,8 +20,8 @@ def quick_sort(arr, low, high)
 		quick_sort(arr, low, pi-1)
 		quick_sort(arr, pi+1, high)
 	end
+	return arr
 end
 
-arr = [1,6,8,3,0,2,5,3,8,6,3]
-quick_sort(arr, 0, arr.length - 1)
-puts arr
+arr = [45, 56, 67, 34, 23, 45, 75, 31, 43, 78]
+puts quick_sort(arr, 0, arr.length - 1)

@@ -1,5 +1,3 @@
-
-count = 0
 def linear_search(num, arr)
 	arr.each_with_index do |value, index|
 		if num == arr[index]
